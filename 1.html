@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      header {
+        height: 130px;
+        width: 100%;
+        background-image: url(https://wallpaperaccess.com/full/1764336.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      h1,
+      h2 {
+        text-align: center;
+        margin-top: 10px;
+      }
+      h2 {
+        color: gray;
+      }
+      #hp {
+        margin: 10px auto;
+        margin-top: 25px;
+        border: 1px solid transparent;
+        width: 80%;
+        height: 400px;
+      }
+
+      .box {
+        border: solid transparent;
+        height: 150px;
+        width: 200px;
+        display: inline-block;
+        margin-right: 45px;
+        margin-left: 45px;
+        margin-top: 30px;
+        border-radius: 10px;
+      }
+      #box1,
+      #box5 {
+        margin-left: 65px;
+      }
+      .s1 {
+        margin-left: 30px;
+        margin-top: 10px;
+        height: 100px;
+        width: 140px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border: solid transparent;
+        border-radius: 10px;
+      }
+      h4 {
+        color: white;
+        margin-left: 3px;
+        margin-top: 4px;
+        padding-left: 2px;
+        background-color: crimson;
+        height: auto;
+        width: 83px;
+        border-radius: 4px;
+        text-transform: uppercase;
+      }
+      .sale {
+        color: white;
+        margin-left: 3px;
+        margin-top: 3px;
+        padding-left: 2px;
+        background-color: orange;
+        height: auto;
+        width: 80px;
+        border-radius: 4px;
+        text-transform: uppercase;
+      }
+      .p1 {
+        margin-top: 10px;
+        height: 25px;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+      }
+      .p2 {
+        height: 10px;
+        text-align: center;
+        color: white;
+      }
+      h3 {
+        margin-left: 22px;
+        margin-top: 20px;
+        height: auto;
+        text-align: center;
+        width: 92px;
+        border-radius: 3px;
+        background-color: cadetblue;
+        color: white;
+      }
+      section {
+        border: solid transparent;
+      }
+      #box1 {
+        background-image: url(https://tse1.mm.bing.net/th/id/OIP.oc3dx67d_uCUoqeFkJuP4wHaE8?pid=Api&P=0&h=180);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      #box2 {
+        background-image: url(https://tse3.mm.bing.net/th/id/OIP.RAsoPlJz1pcb1QXv_LLRdQHaEK?pid=Api&P=0&h=180);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      #box3 {
+        background-image: url(https://tse4.mm.bing.net/th/id/OIP.DkVSrPyHJYrmOEkjCzjYrwHaE8?pid=Api&P=0&h=180);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      #box4 {
+        background-image: url(https://tse2.mm.bing.net/th/id/OIP.-cgiSOOBehA9kLRIa5sQ5wHaEK?pid=Api&P=0&h=180);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      #box5 {
+        background-image: url(https://tse2.mm.bing.net/th/id/OIP.qxEIpH-mL2dWf7QrtEurGAHaEK?pid=Api&P=0&h=180);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      #box6 {
+        background-image: url(https://tse2.mm.bing.net/th/id/OIP.v0t4DpiIo3QxhrKaQbApoAHaE8?pid=Api&P=0&h=180);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      #box7 {
+        background-image: url(https://tse2.mm.bing.net/th/id/OIP.Ld83NVbLaBx781ccJspdZAHaD6?pid=Api&P=0&h=180);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      #box8 {
+        background-image: url(https://s.yimg.com/zb/imgv1/3b3e5e1d-fa86-3f7f-b6ec-1fc6cae3b129/t_500x300);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    </style>
+  </head>
+  <body>
+    <header></header>
+    <h1>Car For Sale</h1>
+    <h2>Discover how much the latest car have been sold for</h2>
+    <section id="hp">
+      <div class="box" id="box1">
+        <h4 class="sale">For Sell</h4>
+        <section class="s1">
+          <p class="p1">BMW M4</p>
+          <p class="p2">
+            <i class="fa-sharp fa-solid fa-map-pin"></i>Los Angeles,CA
+          </p>
+          <h3>$68,000</h3>
+        </section>
+      </div>
+      <div class="box" id="box2">
+        <h4>For rent</h4>
+        <section class="s1">
+          <p class="p1">Tesla Model 3</p>
+          <p class="p2">
+            <i class="fa-sharp fa-solid fa-map-pin"></i>San Francisco
+          </p>
+          <h3>$120/day</h3>
+        </section>
+      </div>
+      <div class="box" id="box3">
+        <h4 class="sale">For Sell</h4>
+        <section class="s1">
+          <p class="p1">Toyota Corolla</p>
+          <p class="p2">
+            <i class="fa-sharp fa-solid fa-map-pin"></i>Austin, TX
+          </p>
+          <h3>$21,500</h3>
+        </section>
+      </div>
+      <div class="box" id="box4">
+        <h4 class="sale">For Sell</h4>
+        <section class="s1">
+          <p class="p1">Hyundai Ioniq 5</p>
+          <p class="p2">
+            <i class="fa-sharp fa-solid fa-map-pin"></i>Seattle, WA
+          </p>
+          <h3>$38,000</h3>
+        </section>
+      </div>
+      <div class="box" id="box5">
+        <h4>For Rent</h4>
+        <section class="s1">
+          <p class="p1">DEFENDER</p>
+          <p class="p2">
+            <i class="fa-sharp fa-solid fa-map-pin"></i>Miami, FL
+          </p>
+          <h3>$180/day</h3>
+        </section>
+      </div>
+      <div class="box" id="box6">
+        <h4 class="sale">For sell</h4>
+        <section class="s1">
+          <p class="p1">BMW M5</p>
+          <p class="p2">
+            <i class="fa-sharp fa-solid fa-map-pin"></i>Los Angeles, CA
+          </p>
+          <h3>$98,000</h3>
+        </section>
+      </div>
+      <div class="box" id="box7">
+        <h4 class="sale">For sell</h4>
+        <section class="s1">
+          <p class="p1">Harrier</p>
+          <p class="p2">
+            <i class="fa-sharp fa-solid fa-map-pin"></i>Los Angeles, CA
+          </p>
+          <h3>$58,000</h3>
+        </section>
+      </div>
+      <div class="box" id="box8">
+        <h4>For Rent</h4>
+        <section class="s1">
+          <p class="p1">G-Wagon</p>
+          <p class="p2">
+            <i class="fa-sharp fa-solid fa-map-pin"></i>Los Angeles
+          </p>
+          <h3>$200/Day</h3>
+        </section>
+      </div>
+    </section>
+  </body>
+</html>

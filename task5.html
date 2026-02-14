@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        justify-content: start;
+      }
+      #s1 {
+        height: 700px;
+        width: 50%;
+        border: 1px solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      #s2 {
+        height: 700px;
+        width: 50%;
+        border: 1px solid;
+        background-image: url("./photo_2026-02-10_12-24-02.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+
+      form {
+        height: 400px;
+        width: 40%;
+        /* border: 1px solid; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+      aside {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      #r1 {
+        align-self: self-start;
+      }
+      #a1 {
+        align-self: flex-end;
+      }
+      #a2 {
+        margin-left: 10px;
+        height: 25px;
+        width: 275px;
+        color: white;
+        background-color: #62449d;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 5px;
+        border: 1px solid;
+      }
+      #a3 {
+        margin-left: 10px;
+        height: 25px;
+        width: 275px;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 5px;
+        border: 1px solid;
+      }
+      #e1 {
+        width: 200px;
+        border-radius: 5px;
+        height: 30px;
+      }
+      #p1 {
+        width: 200px;
+        border-radius: 5px;
+        height: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="s1">
+      <form action="">
+        <h1>welcome Back</h1>
+
+        <p>please enter Your details</p>
+
+        <label for="">Email Address</label>
+        <input type="email" name="" id="e1" width="" />
+        <label for="">Password</label>
+        <input type="password" name="" id="p1" />
+
+        <aside>
+          <input type="checkbox" name="" id="r1" />Remember for 30 days
+          <a href="" id="a1">Forgot Password</a>
+        </aside>
+
+        <a href="" id="a2">Sign in</a>
+        <a href="" id="a3">Sign in With Google</a>
+      </form>
+      <p>Don't have an account? <a href="">Sign Up</a></p>
+    </section>
+    <section id="s2"></section>
+  </body>
+</html>

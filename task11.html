@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #1a0f0f;
+        height: 700px;
+        width: 90%;
+        margin-left: 70px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        /* border: 1px solid; */
+      }
+      .parent {
+        height: 600px;
+        width: 300px;
+        border-radius: 12px;
+      }
+      .box {
+        width: 300px;
+        height: 600px;
+        /* border: 1px solid; */
+        border-radius: 12px;
+        position: absolute;
+        background-color: #2a1b1b;
+        transition: all 0.18s linear;
+      }
+      #b1 {
+        background-image: url(https://cdn.builder.io/api/v1/image/assets%2Ffcea5005d671451e9b07839c893228d0%2F120d1e8147d7419199b04dbed7888a2b);
+        background-size: cover;
+        background-position: center;
+      }
+      #b2 {
+        background-image: url(https://cdn.builder.io/api/v1/image/assets%2Ffcea5005d671451e9b07839c893228d0%2F366555915c984b1eb87c6597c416a6f5);
+        background-size: cover;
+        background-position: center;
+      }
+      #b3 {
+        background-image: url(https://cdn.builder.io/api/v1/image/assets%2Ffcea5005d671451e9b07839c893228d0%2Fb537d3eea233499988fe39fb7db07bd8);
+        background-size: cover;
+        background-position: center;
+      }
+      #b4 {
+        background-image: url(https://cdn.builder.io/api/v1/image/assets%2Ffcea5005d671451e9b07839c893228d0%2F97b43f3cd1904644b27e66b5d96f1b3d);
+        background-size: cover;
+        background-position: center;
+      }
+
+      .h:hover .box {
+        transform: translateY(140px);
+        overflow: hidden;
+        height: 460px;
+        width: 300px;
+      }
+      #d1,
+      #d2,
+      #d3,
+      #d4 {
+        height: 600px;
+        width: 300px;
+        /* border: 1px solid; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        overflow: hidden;
+      }
+      h2 {
+        /* border: 1px solid; */
+        align-self: self-start;
+        position: relative;
+        z-index: 2;
+      }
+      p,
+      h2 {
+        color: white;
+
+        margin-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="h" id="d1">
+      <h2>Marketing</h2>
+      <div class="parent">
+        <p>Product launch and how-to videos to get people to buy your stuff.</p>
+      </div>
+      <div class="box" id="b1"></div>
+    </div>
+
+    <div id="d2" class="h">
+      <h2>Learning & Development</h2>
+      <div class="parent">
+        <p>
+          Internal training videos that your team will actually pay attention
+          to.
+        </p>
+      </div>
+      <div class="box" id="b2"></div>
+    </div>
+
+    <div class="h" id="d3">
+      <h2>Sales Enablement</h2>
+      <div class="parent">
+        <p>
+          Sales training videos that help your team turn cold leads into warm
+          bags of money.
+        </p>
+      </div>
+      <div class="box" id="b3"></div>
+    </div>
+
+    <div id="d4" class="h">
+      <h2>Support</h2>
+      <div class="parent">
+        <p>
+          Help videos that engage your customers before they get mad enough to
+          cancel.
+        </p>
+      </div>
+      <div class="box" id="b4"></div>
+    </div>
+  </body>
+</html>
